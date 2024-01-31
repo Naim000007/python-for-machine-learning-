@@ -45,18 +45,32 @@
 
 #take a positive interger input and tell if it is a four digit number or not 
 
-a = (input('take a number '))
+# a = (input('take a number '))
 
-length = len(a)
+# length = len(a)
 
-if (length == 4):
-    print('this is 4 digit number')
+# if (length == 4):
+#     print('this is 4 digit number')
 
-else:
-    print('input size is ', length)
+# else:
+#     print('input size is ', length)
 
-a = int(input('Give me a number '))
-if (a>=1000 and a<=9999):
-    print('it is 4 digit number')
-else:
-    print('it is not 4 digit number')
+# a = int(input('Give me a number '))
+# if (a>=1000 and a<=9999):
+#     print('it is 4 digit number')
+# else:
+#     print('it is not 4 digit number')
+
+#question 4 
+# Take 3 positive integers input and print the greatest of them do not take the same number
+
+first_number = int(input('first number '))
+second_number = int(input('second number '))
+third_number = int(input('third number '))
+
+if (first_number > second_number) and (first_number > third_number):
+    print('The Greatest Number is', first_number)
+elif (second_number > first_number) and (second_number > third_number):
+    print('The Greatest Number is', second_number)
+else:   
+    print('The Greatest Number is', third_number)
