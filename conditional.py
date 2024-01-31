@@ -64,13 +64,21 @@
 #question 4 
 # Take 3 positive integers input and print the greatest of them do not take the same number
 
-first_number = int(input('first number '))
-second_number = int(input('second number '))
-third_number = int(input('third number '))
+# first_number = int(input('first number '))
+# second_number = int(input('second number '))
+# third_number = int(input('third number '))
 
-if (first_number > second_number) and (first_number > third_number):
-    print('The Greatest Number is', first_number)
-elif (second_number > first_number) and (second_number > third_number):
-    print('The Greatest Number is', second_number)
-else:   
-    print('The Greatest Number is', third_number)
+# if (first_number > second_number) and (first_number > third_number):
+#     print('The Greatest Number is', first_number)
+# elif (second_number > first_number) and (second_number > third_number):
+#     print('The Greatest Number is', second_number)
+# else:   
+#     print('The Greatest Number is', third_number)
+
+#question 5 
+
+#Take positive integers input and tell if it is divisible by 5 or 3 but not divisible by 15.
+num = int(input("Enter a number "))
+if (num%5==0) or (num%3==0): #checking for divisibility by 5 or 3
+    if num % 15 != 0:   # checking if the number is not divisible by 15
+        print("Number is Divisible by either 5 or 3")
