@@ -1,11 +1,11 @@
-                                  # condditionals 
+#                                   condditionals 
 # 1. if , if-else
 # 2. nested 
 # 3. Else if ladder 
 # 4. Ternary 
 # 5. Switch
 
-#question 
+# question 
 # if cost price and selling price of an item is input through the keyboard , write a program to determine whether the seller has made profit or incurrred loss or no profit no . also dermine how much progit he made or loss he incurred.
 
 # price =  int(input('Buying price '))
@@ -18,8 +18,8 @@
 # else :
 #     print('you losses ', price- selling)
 
-#question 2
-#Take input percentage of a student and print the grade accoridng to marks:
+# question 2
+# Take input percentage of a student and print the grade accoridng to marks:
 # a. 81-100 very good
 # b. 71-80 good
 # c. 61-70 fair
@@ -43,7 +43,7 @@
 
 
 
-#take a positive interger input and tell if it is a four digit number or not 
+# take a positive interger input and tell if it is a four digit number or not 
 
 # a = (input('take a number '))
 
@@ -61,7 +61,7 @@
 # else:
 #     print('it is not 4 digit number')
 
-#question 4 
+# question 4 
 # Take 3 positive integers input and print the greatest of them do not take the same number
 
 # first_number = int(input('first number '))
@@ -75,10 +75,10 @@
 # else:   
 #     print('The Greatest Number is', third_number)
 
-#question 5 
+# question 5 
 
-#Take positive integers input and tell if it is divisible by 5 or 3 but not divisible by 15.
-num = int(input("Enter a number "))
-if (num%5==0) or (num%3==0): #checking for divisibility by 5 or 3
-    if num % 15 != 0:   # checking if the number is not divisible by 15
-        print("Number is Divisible by either 5 or 3")
+# Take positive integers input and tell if it is divisible by 5 or 3 but not divisible by 15.
+# num = int(input("Enter a number "))
+# if (num%5==0) or (num%3==0): #checking for divisibility by 5 or 3
+#     if num % 15 != 0:   # checking if the number is not divisible by 15
+#         print("Number is Divisible by either 5 or 3")
